@@ -1,5 +1,4 @@
 #!/bin/bash
-docker build -t dianadi13/sample-node .
 docker push dianadi13/sample-node
 
 ssh dianke402@104.199.12.162 << EOF
