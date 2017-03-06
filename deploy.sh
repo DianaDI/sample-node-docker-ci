@@ -2,7 +2,7 @@
 
 docker push dianadi13/sample-node
 
-ssh dianke402@104.199.12.162 << EOF
+ssh di_davletshin@130.211.88.69 << EOF
 docker pull dianadi13/sample-node:latest
 docker stop web || true
 docker rm web || true
